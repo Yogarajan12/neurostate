@@ -151,6 +151,5 @@ In rough order of value:
    windowing convention.
 4. **Split Sleep-EDF at the person level** by mapping recordings to subjects,
    making the protocol directly comparable to published work.
-5. **Run the collapse table across seeds** now that deadline pressure has
-   passed.
+5. **Run the collapse table across seeds**.
 6. **Matched-protocol baselines** on the same splits.
