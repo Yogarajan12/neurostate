@@ -36,7 +36,7 @@ Exploratory notebooks from the eleven collapse experiments are not included;
 what each tried and how it failed is written up in
 `docs/collapse_experiments.md`.
 
-## Two caveats in the interpretability notebooks
+## Things to take note in the interpretability notebooks
 
 `boundary_spectral_analysis.ipynb` prints 0.0000 with p = 1.0000 for delta,
 theta, alpha and sigma. Those bands were not measured: the 0.3 second token
