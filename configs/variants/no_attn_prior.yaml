@@ -1,0 +1,10 @@
+# Ablation: remove only the attention KL prior, keeping the Gaussian targets
+# (Table 3, row 4).
+name: no_attn_prior
+h5_path: data/processed/sleep_edf_processed.h5
+n_channels: 3
+n_classes: 5
+batch_size: 16
+binary: false
+loader: sleep_edf
+attn_prior_weight: 0.0

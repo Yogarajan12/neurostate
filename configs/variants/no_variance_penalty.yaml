@@ -1,0 +1,10 @@
+# Full curriculum without the variance penalty. Isolates what the fourth ACBL
+# term contributes once gradient isolation is already in place.
+name: acbl_no_variance
+h5_path: data/processed/sleep_edf_processed.h5
+n_channels: 3
+n_classes: 5
+batch_size: 16
+binary: false
+loader: sleep_edf
+variance_weight: 0.0

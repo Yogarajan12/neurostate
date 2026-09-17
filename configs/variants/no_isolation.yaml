@@ -1,0 +1,11 @@
+# Boundary losses coupled in both directions: no formation phase, so the
+# classification gradient reaches the boundary head from the first ACBL
+# epoch. Reproduces the collapse the paper reports (0.005 on Sleep-EDF).
+name: acbl_no_isolation
+h5_path: data/processed/sleep_edf_processed.h5
+n_channels: 3
+n_classes: 5
+batch_size: 16
+binary: false
+loader: sleep_edf
+formation_epochs: 0

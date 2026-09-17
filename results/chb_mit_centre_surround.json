@@ -1,0 +1,62 @@
+[
+  {
+    "checkpoint": "chb_mit_seed42.pt",
+    "n_seizure": 53,
+    "n_normal": 1443,
+    "delta_seizure": 0.001068156328983605,
+    "delta_normal": 0.0011364396195858717,
+    "positive_seizure": 1.0,
+    "positive_normal": 1.0,
+    "mannwhitney_u": 26362.5,
+    "p_value": 0.00012054903404403254,
+    "cohens_d": -0.4818947795591395
+  },
+  {
+    "checkpoint": "chb_mit_seed43.pt",
+    "n_seizure": 53,
+    "n_normal": 1443,
+    "delta_seizure": 0.0032878287602216005,
+    "delta_normal": 0.0056325471960008144,
+    "positive_seizure": 1.0,
+    "positive_normal": 1.0,
+    "mannwhitney_u": 15562.0,
+    "p_value": 2.109619368019122e-13,
+    "cohens_d": -0.9607136324181028
+  },
+  {
+    "checkpoint": "chb_mit_seed44.pt",
+    "n_seizure": 53,
+    "n_normal": 1443,
+    "delta_seizure": 0.0056361607275903225,
+    "delta_normal": 0.007622371893376112,
+    "positive_seizure": 0.9811320754716981,
+    "positive_normal": 0.9993069993069993,
+    "mannwhitney_u": 20983.0,
+    "p_value": 2.3153804721942622e-08,
+    "cohens_d": -0.6419256730221045
+  },
+  {
+    "checkpoint": "chb_mit_seed45.pt",
+    "n_seizure": 53,
+    "n_normal": 1443,
+    "delta_seizure": 0.01441357471048832,
+    "delta_normal": 0.020947899669408798,
+    "positive_seizure": 0.9622641509433962,
+    "positive_normal": 0.9958419958419958,
+    "mannwhitney_u": 21613.0,
+    "p_value": 7.339586262674642e-08,
+    "cohens_d": -0.8687193934500668
+  },
+  {
+    "checkpoint": "chb_mit_seed46.pt",
+    "n_seizure": 53,
+    "n_normal": 1443,
+    "delta_seizure": 0.0013836161233484745,
+    "delta_normal": 0.00153135578148067,
+    "positive_seizure": 1.0,
+    "positive_normal": 1.0,
+    "mannwhitney_u": 14427.5,
+    "p_value": 1.2685391421514902e-14,
+    "cohens_d": -1.1630078174320682
+  }
+]

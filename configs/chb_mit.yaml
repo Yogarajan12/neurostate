@@ -1,0 +1,17 @@
+# CHB-MIT: cross-subject binary seizure detection.
+#
+# Recipe notes:
+#   - deterministic round-robin subject split, so the held-out subjects are
+#     fixed by construction rather than by a seed
+#   - a single optimiser parameter group
+#   - class-weighted cross-entropy for the 3.2 per cent seizure prevalence,
+#     on top of the weighted sampler
+name: chb_mit
+h5_path: data/processed/chbmit_combined_seizure_detection.h5
+n_channels: 17
+n_classes: 2
+batch_size: 32
+binary: true
+loader: chbmit
+single_param_group: true
+class_weighted_loss: true

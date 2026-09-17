@@ -1,0 +1,11 @@
+# Ablation: remove the label-derived Gaussian targets and the attention KL
+# prior together, since prior_weight scales both (Table 3, row 3). This is
+# the most destructive ablation: the head collapses to 0.0001 on Sleep-EDF.
+name: no_gaussian_target
+h5_path: data/processed/sleep_edf_processed.h5
+n_channels: 3
+n_classes: 5
+batch_size: 16
+binary: false
+loader: sleep_edf
+prior_weight: 0.0

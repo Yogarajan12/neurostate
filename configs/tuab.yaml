@@ -1,0 +1,27 @@
+# TUAB: binary abnormality detection, used as a specificity control.
+#
+# TUAB labels apply to whole recordings, so no window contains a
+# within-window transition. A flat boundary output is the correct response
+# here, which is what makes it a control rather than a performance result.
+#
+# Recipe notes:
+#   - variance_weight 0.0: the published TUAB run used three ACBL terms, not
+#     four. Setting it to 1.0 would not reproduce the reported numbers.
+#   - no plateau scheduler
+#   - a single optimiser parameter group with class-weighted cross-entropy
+#   - max_train_chunks limits how much of the corpus is loaded into memory
+#
+# The TUAB result carries caveats that the other two do not; see
+# docs/reproducibility.md before quoting it.
+name: tuab
+processed_dir: data/processed
+n_channels: 19
+n_classes: 2
+batch_size: 32
+binary: true
+loader: tuab
+single_param_group: true
+class_weighted_loss: true
+use_plateau_scheduler: false
+variance_weight: 0.0
+max_train_chunks: 7

@@ -1,0 +1,15 @@
+# Sleep-EDF: 5-class sleep staging.
+#
+# Recipe notes that differ from the other datasets:
+#   - batch size 16 rather than 32
+#   - two optimiser parameter groups, giving the boundary head a higher
+#     learning rate (3e-4) and lower weight decay (1e-5)
+#   - unweighted cross-entropy; class balance is handled by the weighted
+#     sampler in the dataloader instead
+name: sleep_edf
+h5_path: data/processed/sleep_edf_processed.h5
+n_channels: 3
+n_classes: 5
+batch_size: 16
+binary: false
+loader: sleep_edf

@@ -1,0 +1,23 @@
+# Environment matching the one the published runs used (Deepnote, L4/T4/A100).
+# CPU-only work (tests, the synthetic demo, table regeneration) needs only the
+# base dependencies; a GPU is required to reproduce training.
+name: neurostate
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.1
+  - numpy=1.26
+  - scipy=1.11
+  - scikit-learn=1.3
+  - h5py=3.10
+  - pyyaml=6.0
+  - matplotlib=3.8
+  - tqdm=4.66
+  - pip
+  - pip:
+      - mne==1.6.0
+      - ruptures==1.1.9
+      - pytest==7.4.4
+      - ruff==0.1.14

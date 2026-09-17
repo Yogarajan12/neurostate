@@ -1,0 +1,9 @@
+# Ablation: remove the pseudo-boundary loss (Table 3, row 2).
+name: no_pseudo
+h5_path: data/processed/sleep_edf_processed.h5
+n_channels: 3
+n_classes: 5
+batch_size: 16
+binary: false
+loader: sleep_edf
+pseudo_weight: 0.0

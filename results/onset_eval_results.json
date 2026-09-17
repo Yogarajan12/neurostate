@@ -1,0 +1,13 @@
+{
+  "boundary_separation": -0.0021926957302059735,
+  "pct_with_peaks": 1.0,
+  "mean_latency_sec": 21.526761648055444,
+  "median_latency_sec": 30.0,
+  "center_vs_surround": 0.005030826015292473,
+  "acc": 0.893048128342246,
+  "f1m": 0.6508242159008023,
+  "kappa": 0.3221529347130422,
+  "auroc": 0.9401208174793081,
+  "sensitivity": 0.8490566037735849,
+  "specificity": 0.8946638946638946
+}

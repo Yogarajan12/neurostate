@@ -1,0 +1,72 @@
+[
+  {
+    "n_transition": 59,
+    "n_flat": 1437,
+    "pooled_std_transition": 0.00795830599963665,
+    "mean_window_std_transition": 0.007957353745981798,
+    "mean_peak_transition": 0.35342076420783997,
+    "pooled_std_flat": 0.007980345748364925,
+    "mean_window_std_flat": 0.007979284031232384,
+    "mean_peak_flat": 0.35342076420783997,
+    "mannwhitney_u": 34582.0,
+    "p_value": 0.9918352275460048,
+    "cohens_d": -0.3368830535992376,
+    "seed": 42
+  },
+  {
+    "n_transition": 59,
+    "n_flat": 1437,
+    "pooled_std_transition": 0.011766626499593258,
+    "mean_window_std_transition": 0.011664262372937243,
+    "mean_peak_transition": 0.32252034544944763,
+    "pooled_std_flat": 0.01210829522460699,
+    "mean_window_std_flat": 0.011901545709695099,
+    "mean_peak_flat": 0.3225203454909262,
+    "mannwhitney_u": 31173.0,
+    "p_value": 0.9997193798260234,
+    "cohens_d": -0.44326852784373316,
+    "seed": 43
+  },
+  {
+    "n_transition": 59,
+    "n_flat": 1437,
+    "pooled_std_transition": 0.014138845726847649,
+    "mean_window_std_transition": 0.013974910223130452,
+    "mean_peak_transition": 0.32268646359443665,
+    "pooled_std_flat": 0.014264619909226894,
+    "mean_window_std_flat": 0.014079072367511405,
+    "mean_peak_flat": 0.32268646359443665,
+    "mannwhitney_u": 35527.0,
+    "p_value": 0.9826091730117338,
+    "cohens_d": -0.12738668199792666,
+    "seed": 44
+  },
+  {
+    "n_transition": 59,
+    "n_flat": 1437,
+    "pooled_std_transition": 0.02375641278922558,
+    "mean_window_std_transition": 0.02250788594454022,
+    "mean_peak_transition": 0.2902719974517822,
+    "pooled_std_flat": 0.024167848750948906,
+    "mean_window_std_flat": 0.022431286973470438,
+    "mean_peak_flat": 0.2902719974517822,
+    "mannwhitney_u": 45052.0,
+    "p_value": 0.2067035091498864,
+    "cohens_d": 0.04101922146432625,
+    "seed": 45
+  },
+  {
+    "n_transition": 59,
+    "n_flat": 1437,
+    "pooled_std_transition": 0.011881645768880844,
+    "mean_window_std_transition": 0.011881226326449442,
+    "mean_peak_transition": 0.33660557866096497,
+    "pooled_std_flat": 0.011905827559530735,
+    "mean_window_std_flat": 0.011905424053817676,
+    "mean_peak_flat": 0.33660557866096497,
+    "mannwhitney_u": 34534.5,
+    "p_value": 0.9921555029995207,
+    "cohens_d": -0.3804155628925628,
+    "seed": 46
+  }
+]

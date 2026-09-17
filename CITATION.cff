@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "NeuroState: Gradient-Isolated Boundary Learning for Interpretable EEG Transformers"
+message: "If this software or the findings it implements are used, please cite the paper below."
+type: software
+authors:
+  - family-names: Sivakumar
+    given-names: Yogarajan
+  - family-names: Man
+    given-names: Hong
+    affiliation: "Department of Electrical and Computer Engineering, Stevens Institute of Technology"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Yogarajan12/neurostate"
+preferred-citation:
+  type: conference-paper
+  title: "NeuroState: Gradient-Isolated Boundary Learning for Interpretable EEG Transformers"
+  authors:
+    - family-names: Sivakumar
+      given-names: Yogarajan
+    - family-names: Man
+      given-names: Hong
+  collection-title: "2026 IEEE International Workshop on Machine Learning for Signal Processing (MLSP)"
+  year: 2026
+  month: 9
+  conference:
+    name: "IEEE International Workshop on Machine Learning for Signal Processing"
+    city: Atlanta
+    region: Georgia
+    country: US

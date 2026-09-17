@@ -1,0 +1,13 @@
+# Variance penalty alone, with no isolation and no other ACBL term. Shows
+# that penalising constant outputs directly is not sufficient: it creates no
+# gradient distinguishing one boundary position from another.
+name: acbl_variance_only
+h5_path: data/processed/sleep_edf_processed.h5
+n_channels: 3
+n_classes: 5
+batch_size: 16
+binary: false
+loader: sleep_edf
+formation_epochs: 0
+pseudo_weight: 0.0
+prior_weight: 0.0
