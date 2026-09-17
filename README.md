@@ -326,8 +326,6 @@ results, so checkpoints from those runs load without remapping keys.
 - [`docs/reproducibility.md`](docs/reproducibility.md) — split behaviour,
   known limitations, what to check before comparing against published work
 - [`MODEL_CARD.md`](MODEL_CARD.md) — intended use, evaluation, limitations
-- [`docs/POSTER_CORRECTIONS.md`](docs/POSTER_CORRECTIONS.md) — differences
-  found between the MLSP poster source and the camera-ready
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — conventions, what not to change, and
   behaviour that looks like a bug but is deliberate
 
