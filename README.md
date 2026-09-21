@@ -310,6 +310,8 @@ results/             result files behind every published number
 demo/                synthetic CPU demo of the useful-when-flat property
 docs/                method, collapse experiments, data, results, reproducibility
 tests/               mechanism, model, and table-provenance tests
+paper/               accepted manuscript, not yet officially published
+poster/              IEEE MLSP 2026 poster for this project
 ```
 
 Module and parameter names match the notebooks that produced the published
